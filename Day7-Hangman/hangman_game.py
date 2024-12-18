@@ -1,5 +1,6 @@
 from random import choice
 
+
 class Game:
     """
     A class to represent the Hangman game.
@@ -185,12 +186,14 @@ class Game:
         else:
             print(f"{'*' * 16} {self.player_lives}/{self.MAX_LIVES} LIVES LEFT {'*' * 16}")
 
+
 def main():
     """
     Main function to start the Hangman game.
     """
     new_game = Game()
     new_game.start_game()
+
 
 if __name__ == '__main__':
     main()
