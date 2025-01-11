@@ -17,16 +17,16 @@ class Card:
         self.value = value
 
     def __str__(self):
-        return f'{self.rank} of {self.suit}'
+        return f'{self.rank} {self.suit}'
 
 
 class Deck:
     """Represents a deck of cards for the game."""
 
-    suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
-    ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
-    values = {'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6, 'Seven': 7, 'Eight': 8,
-              'Nine': 9, 'Ten': 10, 'Jack': 10, 'Queen': 10, 'King': 10, 'Ace': 11}
+    suits = (u'\u2665', u'\u2666', u'\u2660', u'\u2663') # ASCII representation of cards suit
+    ranks = ('2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A')
+    values = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8,
+              '9': 9, '10': 10, 'J': 10, 'Q': 10, 'K': 10, 'A': 11}
 
     def __init__(self):
         """Initializes a new deck and shuffles it."""
