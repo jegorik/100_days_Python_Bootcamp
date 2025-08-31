@@ -29,6 +29,7 @@ Each day is organized in its own folder with the following structure:
 | [Day 10](./Day10-Calculator/) | Calculator | Functions with Outputs, Recursion, Calculator Logic |
 | [Day 11](./Day11-BlackJack/) | Blackjack Game | Lists, Functions, Game Logic, Card Games |
 | [Day 12](./Day12-GuessTheNumber/) | Guess the Number | Scope, Global vs Local Variables, Game Logic |
+| [Day 14](./Day14-HigherLowerGame/) | Higher Lower Game | Classes, Objects, Type Hints, Error Handling, OOP |
 
 ## How to Run the Projects
 
@@ -51,7 +52,8 @@ Through this bootcamp, I'm developing skills in:
 
 - ✅ Days 1-5: Basic Python fundamentals
 - ✅ Days 7-12: Intermediate concepts and game development
-- 🔄 Currently working on: Advanced topics
+- ✅ Day 14: Object-Oriented Programming and advanced concepts
+- 🔄 Currently working on: Advanced topics and web development
 
 ## Technologies Used
 
@@ -70,7 +72,7 @@ To explore any project:
 
 ## Future Plans
 
-- Continue with Days 13-100
+- Continue with Days 15-100
 - Refactor older projects with improved techniques
 - Add unit tests for projects
 - Create a web interface for some projects
